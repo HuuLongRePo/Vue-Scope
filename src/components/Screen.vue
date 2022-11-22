@@ -27,7 +27,7 @@ export default{
     text-align: right;
     font-size: 26px;
     font-weight: bold;
-    background: #ababab;
+    background: #afafaf;
     color: #000;
 
 }

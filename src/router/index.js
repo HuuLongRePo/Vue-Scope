@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '@/pages/Home.vue'
-import Cats from '@/pages/Cats.vue'
-import Login from '@/pages/Login.vue'
-import Caculator from '@/pages/Caculator.vue'
+import Home from '@/views/Home.vue'
+import Cats from '@/views/Cats.vue'
+import Login from '@/views/Login.vue'
+import Caculator from '@/views/Caculator.vue'
 
 const routes = [
 
@@ -39,4 +39,5 @@ const routes = [
 ]
 
 const router = createRouter({ history: createWebHistory(), routes })
+
 export default router

@@ -19,7 +19,6 @@ export default{
         }
     },methods: {
         sendValue(value){
-            console.log(value);
             this.showNumber = value;
         },
     },

@@ -18,9 +18,9 @@
 <script >
   import Hello from './components/Hello.vue'
   import Child from './components/Child.vue'
-  import Home from './pages/Home.vue'
-  import LayoutUser from '@/layouts/LayoutUser.vue'
-  import LayoutBlank from '@/layouts/LayoutBlank.vue'
+  import Home from './views/Home.vue'
+  import LayoutUser from '@/views/LayoutUser.vue'
+  import LayoutBlank from '@/views/LayoutBlank.vue'
 const default_layout = 'User'
   export default{
     
