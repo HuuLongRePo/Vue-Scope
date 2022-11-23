@@ -49,7 +49,7 @@ const default_layout = 'User'
     }, 
     computed: {
     layout() {
-      return 'Layout' + (this.$route.meta.layout || default_layout)
+      return 'Layout' + (this.$route.meta.layout ?? default_layout)
     }
   },
     
